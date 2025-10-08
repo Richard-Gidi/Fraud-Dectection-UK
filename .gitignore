@@ -1,0 +1,123 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+# Common names: venv, .venv, env, .env, .venv, envs, .envs, fraud
+venv/
+.venv/
+env/
+env.bak/
+fraud/
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+.hypothesis/
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter Notebook checkpoints and outputs
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-workspace
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment variables and secrets
+.env
+.env.*
+env.local
+secrets.env
+
+# Model artifacts (usually large; keep out of git).
+# If you want to version small models, consider a separate models repo or DVC.
+models/
+
+# Data files
+data/
+*.csv
+*.parquet
+*.sqlite
+
+# Docker
+docker-compose.override.yml
+**/docker-compose.override.yml
+Dockerfile.dev
+
+# Node / front-end
+node_modules/
+npm-debug.log
+
+# OS generated files
+Icon
+
+# Coverage and reports
+# Keep reports/ in repo but ignore large or intermediate report artifacts.
+# Allow committed evaluation charts and the metrics summary under reports/figures.
+reports/cache/
+reports/*.html
+reports/*.zip
+reports/*.tar.gz
+!reports/figures/
+!reports/figures/*
+!reports/metrics_summary.txt
+
+# Ignore local presentation draft
+PRESENTATION.md
+
+# mypy
+.mypy_cache/
+
+# Caches
+*.cache
+
+# Ignore virtualenv activators
+Scripts/Activate.ps1
