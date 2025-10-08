@@ -15,11 +15,13 @@ dist/
 
 # Virtual environments
 # Common names: venv, .venv, env, .env, .venv, envs, .envs, fraud
+.env
 venv/
 .venv/
 env/
 env.bak/
 fraud/
+fresh_env/
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
