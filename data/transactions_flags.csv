@@ -1,0 +1,61 @@
+FLAG_ID,TRANSACTION_ID,FLAG_TYPE,FLAG_REASON,FLAG_DATE,RESOLVED
+1,1,Location-based Fraud,2023-06-15 09:15:00.000,The transaction occurred from an unusual location outside the usual region.,True
+2,2,High-Value Flag,2023-06-16 14:30:00.000,The transaction exceeds the Â£500 limit typically spent by this customer in one go.,False
+3,3,Multiple Transactions,2023-06-17 10:45:00.000,"Customer made multiple transactions within 10 minutes, which is unusual for their profile.",False
+4,4,Suspicious Merchant,2023-06-18 13:30:00.000,The merchant has been flagged for multiple chargebacks in the past month.,True
+5,5,Card Not Present Fraud,2023-06-19 16:40:00.000,"The transaction was made without the physical card being present, raising suspicion of fraud.",True
+6,6,Account Takeover,2023-06-20 18:10:00.000,The userâ€™s account was accessed from a different device that was not previously registered.,False
+7,7,Identity Theft,2023-06-21 19:30:00.000,"The transaction was made from a new device that the customer had not used before, indicating potential fraud.",True
+8,8,Return Fraud,2023-06-22 14:40:00.000,The customer returned items that were flagged as fraudulently purchased with stolen cards.,False
+9,9,Location-based Fraud,2023-06-23 15:00:00.000,"Transaction made from a region where the customer has not been before, raising fraud concerns.",True
+10,10,Phishing Attack,2023-06-24 16:25:00.000,The payment was made after the customer received a suspicious email requesting sensitive information.,True
+11,11,Multiple Transactions,2023-06-25 12:15:00.000,"Customer made several high-value purchases in a short period, which is unusual.",False
+12,12,Suspicious Merchant,2023-06-26 14:00:00.000,The merchantâ€™s account has been flagged multiple times for fraudulent activities.,True
+13,13,High-Value Flag,2023-06-27 13:00:00.000,The transaction amount is unusually high for this customerâ€™s typical spending behavior.,False
+14,14,Payment Gateway Exploit,2023-06-28 15:40:00.000,The transaction was processed through a compromised payment gateway.,True
+15,15,Chargeback Fraud,2023-06-29 16:50:00.000,"The customer initiated a chargeback after receiving the products, which is a common fraud pattern.",True
+16,16,Bot-driven Fraud,2023-06-30 17:15:00.000,Automated scripts were used to make this fraudulent transaction in bulk on the website.,True
+17,17,Account Takeover,2023-07-01 09:20:00.000,Suspicious login detected from an unfamiliar device and location.,False
+18,18,Suspicious Merchant,2023-07-02 10:30:00.000,The merchant has a history of refunds being issued after suspicious transactions.,True
+19,19,Location-based Fraud,2023-07-03 12:10:00.000,Transaction made in a high-risk region known for frequent fraudulent activities.,False
+20,20,Phishing Attack,2023-07-04 13:50:00.000,The transaction was flagged after the customer was tricked into sharing their payment details via email.,True
+21,21,Multiple Transactions,2023-07-05 14:30:00.000,"The customer made 5 purchases in 15 minutes, which is highly unusual for their profile.",True
+22,22,Return Fraud,2023-07-06 16:40:00.000,"A product was returned for a full refund, though the original transaction was made with a stolen card.",False
+23,23,High-Value Flag,2023-07-07 17:00:00.000,"A purchase of over Â£1000 was flagged as unusual for this customer, triggering a fraud check.",True
+24,24,Suspicious Merchant,2023-07-08 18:00:00.000,The merchant has been flagged due to previous fraud reports from customers.,False
+25,25,Card Not Present Fraud,2023-07-09 19:20:00.000,"This online purchase was made with stolen card details, triggering an alert.",True
+26,26,Multiple Transactions,2023-07-10 09:30:00.000,"Customer attempted to make several large transactions in a short span, suggesting possible fraud.",True
+27,27,Bot-driven Fraud,2023-07-11 10:40:00.000,Bots attempted to use multiple stolen payment details for fraudulent transactions.,True
+28,28,Account Takeover,2023-07-12 12:10:00.000,The customerâ€™s account was accessed from an IP address located outside their usual location.,True
+29,29,Payment Gateway Exploit,2023-07-13 13:50:00.000,Transaction processed via a payment gateway vulnerability that has been exploited.,True
+30,30,Location-based Fraud,2023-07-14 15:00:00.000,Transaction flagged for being processed in a region known for recent fraudulent activities.,False
+31,31,Identity Theft,2023-07-15 16:10:00.000,This transaction was flagged as the userâ€™s identity appeared to have been stolen.,True
+32,32,Chargeback Fraud,2023-07-16 17:00:00.000,"The cardholder disputed the transaction after the goods had already been delivered, indicating potential fraud.",False
+33,33,Suspicious Merchant,2023-07-17 18:30:00.000,Merchantâ€™s account raised a red flag due to unusual refund requests and chargebacks.,True
+34,34,High-Value Flag,2023-07-18 19:00:00.000,The purchase was flagged due to an unusually large amount for a new account holder.,False
+35,35,Bot-driven Fraud,2023-07-19 09:30:00.000,Automated scripts attempted multiple transactions using stolen card details.,True
+36,36,Location-based Fraud,2023-07-20 10:50:00.000,A transaction flagged as fraudulent due to being made in a high-risk region for fraud.,False
+37,37,Phishing Attack,2023-07-21 11:20:00.000,Customer fell victim to a phishing scam and made a transaction using stolen credentials.,True
+38,38,Account Takeover,2023-07-22 12:00:00.000,"Account accessed from an unusual location, triggering fraud detection protocols.",False
+39,39,Suspicious Merchant,2023-07-23 13:10:00.000,Merchant flagged for multiple instances of fraud reported by customers.,True
+40,40,Card Not Present Fraud,2023-07-24 14:40:00.000,"The transaction was processed without the physical card being presented, raising concerns of fraud.",True
+41,41,Chargeback Fraud,2023-07-25 15:30:00.000,"Fraudulent chargebacks issued after customers received the goods, flagging the transaction.",False
+42,42,Identity Theft,2023-07-26 16:00:00.000,Transaction flagged due to the use of stolen personal details for the purchase.,True
+43,43,High-Value Flag,2023-07-27 17:20:00.000,Transaction flagged as potentially fraudulent due to a purchase amount exceeding the customerâ€™s average spend.,False
+44,44,Suspicious Merchant,2023-07-28 18:00:00.000,Merchant flagged due to several chargeback requests in the past month.,True
+45,45,Location-based Fraud,2023-07-29 19:10:00.000,Transaction flagged due to a mismatch between the customerâ€™s location and the transaction location.,False
+46,46,Bot-driven Fraud,2023-07-30 20:30:00.000,Bot-driven fraud attempts detected through an automated system.,True
+47,47,Phishing Attack,2023-07-31 21:00:00.000,"The customer was scammed via phishing, which led to fraudulent transactions being processed.",True
+48,48,Payment Gateway Exploit,2023-08-01 09:15:00.000,Exploit of a known vulnerability in the payment gateway used for fraudulent transactions.,False
+49,49,Return Fraud,2023-08-02 10:40:00.000,Customer returned items they didnâ€™t purchase using fraudulent payment methods.,True
+50,50,Multiple Transactions,2023-08-03 11:25:00.000,"Customer conducted several transactions in a short time, which is highly unusual for their account.",False
+51,51,Account Takeover,2023-08-04 09:00:00.000,The customerâ€™s account was accessed from a new device that was not registered before.,False
+52,52,Suspicious Merchant,2023-08-05 10:20:00.000,The merchantâ€™s account has been flagged for multiple chargeback incidents in the last 30 days.,True
+53,53,Card Not Present Fraud,2023-08-06 11:30:00.000,"The transaction was processed without the physical card, raising a concern for potential fraud.",True
+54,54,Multiple Transactions,2023-08-07 12:00:00.000,"The customer made multiple transactions within a 10-minute window, indicating unusual activity.",False
+55,55,Phishing Attack,2023-08-08 13:30:00.000,The customer clicked on a suspicious email link and made a purchase with stolen card details.,True
+56,56,Return Fraud,2023-08-09 14:40:00.000,"The customer returned items for a refund, but the purchase was flagged as being made with a stolen card.",True
+57,57,Location-based Fraud,2023-08-10 15:50:00.000,The transaction was flagged as the purchase was made from an unusual location compared to the customerâ€™s regular patterns.,False
+58,58,High-Value Flag,2023-08-11 16:00:00.000,The transaction was for a high-value item that exceeded the customerâ€™s typical spending patterns.,True
+59,59,Identity Theft,2023-08-12 17:10:00.000,The transaction was flagged after it was identified that the customerâ€™s identity had been stolen and used for fraudulent purchases.,True
+60,60,Suspicious Merchant,2023-08-13 18:20:00.000,The merchant has been identified as high-risk for fraudulent transactions and is under investigation.,False
